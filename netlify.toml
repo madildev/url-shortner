@@ -1,0 +1,6 @@
+[build]
+  publish = "."
+
+  command = """
+  sed "s|__API_URL__|$API_URL|g; s|__API_KEY__|$API_KEY|g" config.template.js > config.js
+  """

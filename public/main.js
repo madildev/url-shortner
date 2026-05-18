@@ -1,6 +1,6 @@
 // Information to reach API
-const apiKey = CONFIG.apiKey;
-const url = CONFIG.apiUrl;
+const apiKey = window.ENV.API_KEY;
+const url = window.ENV.API_URL;
 
 // Some page elements
 const inputField = document.querySelector('#input');
